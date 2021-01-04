@@ -16,7 +16,7 @@ You will create a tool to convert temperatures from one scale to another. After 
 * The user can view the Celsius value 
 
 ## Mock Up
-![mockupPart1](img/mockupPart1.png)
+![mockupPart1](mockup.png)
 
 ## Steps
 1. Structure the webpage (HTML)
