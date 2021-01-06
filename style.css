@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 25px;
+
+}
+
+h1,
+footer {
+    text-align: center;
+}
+
+form {
+   
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    
+    
+
+}
+
+.midDiv {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.rightDiv {
+ 
+}
