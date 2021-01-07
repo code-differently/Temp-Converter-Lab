@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp converter</title>
+    <link rel="stylesheet" href="TSconverter.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="tmp">Temperature Scale Converter</h1>
+
+        <div class="align">
+            <label id="labelValue">Value</label>
+        </div>
+
+        <div class="fhr">
+            <label>Fahrenheit</label>
+            <input id="userInput" type="number" onchange="temperatureConverter(this.value)">
+            <button id="btn">Calculate</button>
+        </div>
+
+        <br><br>
+
+        <label class="align"><strong>Celsius</strong></label><br>
+        <label id="outputCelsius" class="align"></label>
+
+    </div>
+
+<script src="TSconverter.js"></script>
+
+</body>
+</html>
+
