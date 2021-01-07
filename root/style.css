@@ -1,0 +1,27 @@
+* {
+  /* Set All Non Selectors To 0 Padding & Margin */
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  border-style: solid;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.celsius {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
