@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1><strong>Temperature Scale Convertor</strong></h1>
+    <br>
+    <section class="container">
+        <!--Created Different Scale Options  -->
+        <select id="selectScale">
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Rankine">Rankine</option>
+        </select>
+
+        <label for="inputValue">Value</label>
+        <!-- Able to use onchange -->
+        <input id="inputValue" type="number" name="value">
+        <!--onclick Event applied to button-->
+        <button class="btn btn-rounded btn-primary" onclick="tempConvert()">Calculate</button>
+
+    </section>
+    <br>
+    <!-- Created Class to adjust styling & added empty span for Conversion placement -->
+    <div class="conversions">
+        <label> Fahrenheit <span id="getFahrenheit"> </label>
+        <label> Celsius <span id="getCelsius"> </label>
+        <label> Kelvin <span id="getKelvin"> </label>
+        <label> Rankine <span id="getRankine"> </label>
+    </div>
+
+
+    <script src="app.js"> </script>
+
+</body>
+
+</html>

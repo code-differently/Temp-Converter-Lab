@@ -1,0 +1,41 @@
+* {
+  /* Set All Non Selectors To 0 Padding & Margin */
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  border-style: solid;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.conversions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Chrome, Safari, Edge, Opera Remove Arrows and Spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox Remove Arrows and Spinners*/
+#inputValue {
+  -moz-appearance: textfield;
+}
