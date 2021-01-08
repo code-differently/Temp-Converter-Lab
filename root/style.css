@@ -20,8 +20,22 @@ body {
   justify-content: space-evenly;
 }
 
-.celsius {
+.conversions {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Chrome, Safari, Edge, Opera Remove Arrows and Spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox Remove Arrows and Spinners*/
+#inputValue {
+  -moz-appearance: textfield;
 }
