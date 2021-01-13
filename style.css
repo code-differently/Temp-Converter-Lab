@@ -3,33 +3,83 @@
 }
 
 main {
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
-    padding: 25px;
-
+    margin: auto;
+    margin-top: 25px;
+    width: 750px;
+    height: 450px;
+    border: 2px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
-h1,
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
 footer {
     text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-form {
-   
+container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    
-    
+    justify-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 25px;
+}
 
+input {
+    width: 150px;
+    height: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.leftDiv {
+    padding-top: 10px;
+    font-size: 25px;
 }
 
 .midDiv {
     text-align: center;
-    justify-content: center;
-
+    align-items: center;
+    margin-bottom: 30px;    
 }
 
 .rightDiv {
- 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px; 
+    border: 1px solid red;
+}
+
+.calcButton {
+    font-size: 25px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 0;
+    border: none;    
+    background-color: #7da9fc59;
+    font-weight: bold;
+}
+
+#btn {
+    border: 2px solid #29519b8e;
+}
+
+#c_temp {
+    border: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
