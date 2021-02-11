@@ -44,8 +44,8 @@ Allow the user to choose which temperature scale they are inputing and display t
 
 Example:
 
-User chooses *celsius*
-User inputs a number
-Page outputs: Fahrenheit and Asolute Zero
+- User chooses *celsius*
+- User inputs a number
+- Page outputs: Fahrenheit and Asolute Zero
 
 **Happy Hacking!**
