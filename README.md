@@ -18,14 +18,34 @@ You will create a tool to convert temperatures from one scale to another. After 
 ## Mock Up
 ![mockupPart1](mockup.png)
 
-## Steps
-1. Structure the webpage (HTML)
-2. Style the webpage (CSS)
-3. Implement the Logic (JavaScript)
-4. Go the extra mile!
+## Steps 1
 
+Structure the webpage (HTML)
 
-## Submission
-Create a pull request from your project GitHub page
+## Steps 2
+
+Style the webpage (CSS)
+
+## Steps 3
+
+Implement the Logic (JavaScript)
+
+Hint: Research the `onClick()` HTML element attribute
+
+Hint: Research getting the value from a form element with JavaScript
+
+## Step 4 
+
+Add the conversion to *absolute zero*
+
+## Step 5
+
+Allow the user to choose which temperature scale they are inputing and display the conversions of each other tempurature scale.
+
+Example:
+
+User chooses *celsius*
+User inputs a number
+Page outputs: Fahrenheit and Asolute Zero
 
 **Happy Hacking!**
