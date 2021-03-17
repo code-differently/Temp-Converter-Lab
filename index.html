@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <H1>Temperature Scale Convertor</H1>
+            <container class="calcForm">
+                    <div class="leftDiv"><p>Fahrenheit</p></div>
+                    <div class="midDiv">
+                        <label for="f_temp">Value</label><br>
+                        <input type="text" id="f_temp_value"><br>
+                    </div>
+                    <div class="rightDiv">
+                        <button onclick="tempConvert()" id="btn" class="calcButton">Calculate</button>
+                    </div>
+            </container>
+            <Footer>
+                <label>Celsius</label><br>
+                <p id="outputCelcius"></p>
+            </Footer>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
